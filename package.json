@@ -1,0 +1,52 @@
+{
+  "name": "styled-content-loader",
+  "version": "0.0.0",
+  "description": "Simplest solution for content loader in React and styled-components",
+  "author": "rfoel",
+  "license": "MIT",
+  "repository": "rfoel/styled-content-loader",
+  "main": "dist/index.js",
+  "module": "dist/index.modern.js",
+  "source": "src/index.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "keywords": [
+    "content-loader",
+    "react",
+    "styled-components"
+  ],
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "microbundle-crl --no-compress --format modern,cjs",
+    "start": "microbundle-crl watch --no-compress --format modern,cjs",
+    "postinstall": "yarn build"
+  },
+  "peerDependencies": {
+    "react": ">= 16.0.0",
+    "styled-components": ">= 4.0.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "cross-env": "^7.0.2",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-standard": "^4.0.1",
+    "microbundle-crl": "^0.13.10",
+    "prettier": "^2.0.4",
+    "react": "^16.14.0",
+    "styled-components": "^5.2.0"
+  }
+}
