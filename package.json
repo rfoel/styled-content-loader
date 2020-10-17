@@ -22,7 +22,7 @@
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
-    "postinstall": "yarn build"
+    "prepublish": "yarn build"
   },
   "peerDependencies": {
     "react": ">= 16.0.0",
