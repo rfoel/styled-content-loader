@@ -19,7 +19,7 @@
     "react-dom": "^16.14.0",
     "react-hook-form": "^6.9.4",
     "react-live": "^2.2.2",
-    "react-scripts": "3.4.3",
+    "react-scripts": "3.4.4",
     "styled-breakpoints": "^8.1.2",
     "styled-content-loader": "^1.1.0"
   },
