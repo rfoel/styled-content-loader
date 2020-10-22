@@ -79,7 +79,7 @@ function App() {
           <span>{dependencies['styled-content-loader'].replace('^', '')}</span>
           <a
             href='https://github.com/rfoel/styled-content-loader'
-            rel='noopener'
+            rel='noopener noreferrer'
             target='_blank'
           >
             <img

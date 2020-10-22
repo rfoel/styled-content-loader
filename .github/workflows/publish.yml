@@ -27,6 +27,9 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: cd docs
-      - run: yarn
-      - run: yarn deploy
+      - run: |
+          git config --global user.email "rafaelfr@outlook.com"
+          git config --global user.name "Rafael Franco"
+          cd docs
+          yarn
+          yarn deploy
