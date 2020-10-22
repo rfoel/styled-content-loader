@@ -1,0 +1,44 @@
+{
+  "name": "docs",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://rfoel.github.io/styled-content-loader",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "polished": "^4.0.3",
+    "prism-react-renderer": "^1.1.1",
+    "react-dom": "^16.14.0",
+    "react-hook-form": "^6.9.4",
+    "react-live": "^2.2.2",
+    "react-scripts": "3.4.3",
+    "styled-breakpoints": "^8.1.2",
+    "styled-content-loader": "^1.1.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
