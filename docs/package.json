@@ -11,7 +11,7 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "polished": "^4.0.3",
