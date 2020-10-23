@@ -28,7 +28,6 @@ const StyledContentLoader = styled.span(
           ${backgroundColor} 33%
         );
         background-size: 800px 104px;
-        height: 96px;
         color: transparent !important;
         position: relative;
         user-select: none;
