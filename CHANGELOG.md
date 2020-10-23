@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/rfoel/styled-content-loader/compare/v1.1.1...v1.1.2) (2020-10-23)
+
+
+### Bug Fixes
+
+* remove height from loading ([7a46427](https://github.com/rfoel/styled-content-loader/commit/7a4642748a85654f595b020f4d86d9e0fabf8d46))
+
 ## [1.1.1](https://github.com/rfoel/styled-content-loader/compare/v1.1.0...v1.1.1) (2020-10-23)
 
 
