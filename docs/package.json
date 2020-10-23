@@ -21,7 +21,7 @@
     "react-live": "^2.2.2",
     "react-scripts": "3.4.3",
     "styled-components": "^5.2.0",
-    "styled-content-loader": "^1.1.1"
+    "styled-content-loader": "^1.1.2"
   },
   "eslintConfig": {
     "extends": "react-app"
