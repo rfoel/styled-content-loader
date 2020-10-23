@@ -10073,10 +10073,10 @@ styled-breakpoints@^8.1.2:
   resolved "https://registry.yarnpkg.com/styled-breakpoints/-/styled-breakpoints-8.1.2.tgz#bfc962a1d5c8e6da2789b1ffa538cdb0fe940588"
   integrity sha512-8JDedL+BAMmxPMAUrz6lCzZoAG5kkfsFLUg0ZxLZb1k4GdySMCjom5z3jq4mzQ4sKdEy9Su4RzKKvTODCfApCA==
 
-styled-content-loader@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/styled-content-loader/-/styled-content-loader-1.1.0.tgz#910916c132dfa592f7123adbf0d06128bae90fac"
-  integrity sha512-8f85wxpf8NJQPF3hR7iZwcayw4Jt1EDhvE7lURMvMb/uW79e2rav8m00OuAwmYKTSFECNXOaSrLTyJFGmPGFPA==
+styled-content-loader@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/styled-content-loader/-/styled-content-loader-1.1.2.tgz#5062ab29c5c2cd3adc5094d980545b59a11bde01"
+  integrity sha512-ugdbN4aV1ahOeB4rYPQFomBHU/SdzgbWUW0VpJAGfTyocd8EQO1x6ZtlFX8n5citzoI0/ty+p84eyt3k/CmdDA==
   dependencies:
     prop-types "^15.7.2"
 
