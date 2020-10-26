@@ -17,7 +17,7 @@
     "polished": "^4.0.3",
     "prism-react-renderer": "^1.1.1",
     "react-dom": "^17.0.1",
-    "react-hook-form": "^6.9.5",
+    "react-hook-form": "^6.9.6",
     "react-live": "^2.2.2",
     "react-scripts": "3.4.4",
     "styled-breakpoints": "^8.1.2",
