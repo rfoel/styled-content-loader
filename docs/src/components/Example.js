@@ -5,6 +5,8 @@ import ContentLoader from 'styled-content-loader'
 import { darken } from 'polished'
 import dracula from 'prism-react-renderer/themes/dracula'
 
+import { dependencies } from '../../package.json'
+
 const Container = styled.div(
   ({
     theme: {
@@ -46,7 +48,9 @@ export default ({ backgroundColor, foregroundColor, isLoading }) => {
   isLoading={isLoading}
 >
   <span>⌛</span>
-  <h1>styled-content-loader</h1>
+  <h1>styled-content-loader <span>${dependencies[
+    'styled-content-loader'
+  ].replace('^', '')}</span></h1>
   <p>
     The simplest solution for content loading in 
     React and styled-components.
