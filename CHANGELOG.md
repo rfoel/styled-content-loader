@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/rfoel/styled-content-loader/compare/v1.1.2...v1.1.3) (2020-11-05)
+
+
+### Bug Fixes
+
+* fix children visibility ([8b28394](https://github.com/rfoel/styled-content-loader/commit/8b28394f6072084bed6563967542fb8077c882d2))
+
 ## [1.1.2](https://github.com/rfoel/styled-content-loader/compare/v1.1.1...v1.1.2) (2020-10-23)
 
 
