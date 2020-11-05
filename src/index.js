@@ -14,7 +14,7 @@ const StyledContentLoader = styled.span(
   ({ backgroundColor, foregroundColor, isLoading }) => css`
     ${isLoading &&
     css`
-      * {
+      > * {
         animation-duration: 1.25s;
         animation-fill-mode: forwards;
         animation-iteration-count: infinite;
@@ -43,7 +43,7 @@ StyledContentLoader.propTypes = {
 }
 
 StyledContentLoader.defaultProps = {
-  backgroundColor: '#f6f6f6',
+  backgroundColor: '#e6e6e6',
   foregroundColor: '#f0f0f0',
   isLoading: true,
 }

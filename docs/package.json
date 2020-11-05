@@ -7,21 +7,21 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "node scripts/deploy"
   },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
     "polished": "^4.0.3",
     "prism-react-renderer": "^1.1.1",
+    "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-hook-form": "^6.9.5",
+    "react-hook-form": "^6.9.4",
     "react-live": "^2.2.2",
-    "react-scripts": "3.4.4",
-    "styled-breakpoints": "^8.1.2",
-    "styled-content-loader": "^1.1.0"
+    "react-scripts": "3.4.3",
+    "styled-components": "^5.2.0",
+    "styled-content-loader": "^1.1.2"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,6 +39,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "execa": "^4.0.3"
   }
 }
