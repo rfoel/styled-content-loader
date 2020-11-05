@@ -31,6 +31,12 @@ const StyledContentLoader = styled.span(
         color: transparent !important;
         position: relative;
         user-select: none;
+
+        * {
+          display: none;
+          visibility: hidden;
+          opacity: 0;
+        }
       }
     `}
   `,
