@@ -17,6 +17,11 @@ npm install styled-content-loader
 yarn add styled-content-loader
 ```
 
+## Dependencies
+```
+npm install styled-components
+```
+
 ## Usage
 
 ```js
