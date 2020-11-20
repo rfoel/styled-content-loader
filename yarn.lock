@@ -7121,9 +7121,9 @@ sax@~1.2.4:
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
 semantic-release@^17.2.1:
-  version "17.2.2"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-17.2.2.tgz#520dae9cd188c7cdcc5216a7aad131548fc5cec7"
-  integrity sha512-LNU68ud3a3oU46H11OThXaKAK430jGGGTIF4VsiP843kRmS6s8kVCceLRdi7yWWz/sCCMD0zygPTQV2Jw79J5g==
+  version "17.2.4"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-17.2.4.tgz#b1e18644a5be51a4ee681172fc3c3bb05fe0322a"
+  integrity sha512-NcYFT+duzg+eE57s9lZYRRkxzyiXGvwFdPvS4U+8TYo+vb0UZpQuFi63hFgoLAOF4lo5yj2v79GsG9hDC66EQw==
   dependencies:
     "@semantic-release/commit-analyzer" "^8.0.0"
     "@semantic-release/error" "^2.2.0"
