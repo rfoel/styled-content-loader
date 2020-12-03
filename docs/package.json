@@ -39,6 +39,6 @@
     ]
   },
   "devDependencies": {
-    "execa": "^4.1.0"
+    "execa": "^5.0.0"
   }
 }
