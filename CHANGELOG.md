@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/rfoel/styled-content-loader/compare/v1.1.3...v1.2.0) (2021-01-28)
+
+
+### Features
+
+* migrate to typescript ([048ca00](https://github.com/rfoel/styled-content-loader/commit/048ca0073cd5f3d7b226263191519573c6a23feb))
+
 ## [1.1.3](https://github.com/rfoel/styled-content-loader/compare/v1.1.2...v1.1.3) (2020-11-05)
 
 
