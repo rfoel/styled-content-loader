@@ -24,7 +24,7 @@ const Container = styled.div(
   `,
 )
 
-const Example = styled.div(
+const StyledExample = styled.div(
   ({
     theme: {
       colors: { dark, light },
@@ -40,7 +40,7 @@ const Example = styled.div(
   `,
 )
 
-export default ({ backgroundColor, foregroundColor, isLoading }) => {
+const Example = ({ backgroundColor, foregroundColor, isLoading }) => {
   const code = `
 <ContentLoader
   backgroundColor={backgroundColor}
@@ -66,11 +66,13 @@ export default ({ backgroundColor, foregroundColor, isLoading }) => {
         theme={dracula}
       >
         <LiveEditor />
-        <Example>
+        <StyledExample>
           <LivePreview />
           <LiveError />
-        </Example>
+        </StyledExample>
       </LiveProvider>
     </Container>
   )
 }
+
+export default Example
