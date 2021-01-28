@@ -1,6 +1,6 @@
 {
   "name": "styled-content-loader",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Simplest solution for content loader in React and styled-components",
   "author": "rfoel",
   "license": "MIT",

@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/rfoel/styled-content-loader/compare/v1.2.1...v1.2.2) (2021-01-28)
+
+
+### Bug Fixes
+
+* fix prop types ([4ebee86](https://github.com/rfoel/styled-content-loader/commit/4ebee8648407e00ee764c5990a81c504d0c025c8))
+
 ## [1.2.1](https://github.com/rfoel/styled-content-loader/compare/v1.2.0...v1.2.1) (2021-01-28)
 
 
