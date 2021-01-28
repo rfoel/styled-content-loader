@@ -9,7 +9,7 @@ const deploy = async () => {
     await exec('git', ['--work-tree', folderName, 'commit', '-m', 'gh-pages'])
     await exec('git', ['push', 'origin', 'HEAD:gh-pages', '--force'])
     await exec('rm', ['-r', folderName])
-    await exec('git', ['checkout', '-f', 'master'])
+    await exec('git', ['checkout', '-f', 'main'])
     await exec('git', ['branch', '-D', 'gh-pages'])
   } catch (e) {
     console.log(e.message)
