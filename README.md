@@ -5,17 +5,19 @@
 [![NPM](https://img.shields.io/npm/l/styled-content-loader)](LICENSE.md)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
-The simplest solution for content loading in React and styled-components.
+The simplest solution for content loading in [React](http://reactjs.org/) and [styled-components](https://styled-components.com/).
 
 ## Getting Started
 
 ```
-npm install styled-content-loader
+npm install styled-components styled-content-loader
 ```
 
 ```
-yarn add styled-content-loader
+yarn add styled-components styled-content-loader
 ```
+
+styled-components is a peer dependency, so you should install it yourself.
 
 ## Usage
 
@@ -34,12 +36,12 @@ const App = () => {
 export default App
 ```
 
-## Options
+## Props
 
 | Name            | Description                    | Default |
 | --------------- | ------------------------------ | ------- |
-| backgroundColor | Animation background color     | #fafafa |
-| foregroundColor | Animation foreground color     | #cccccc |
+| backgroundColor | Animation background color     | #e6e6e6 |
+| foregroundColor | Animation foreground color     | #f0f0f0 |
 | isLoading       | Wether it will be shown or not | true    |
 
 ## Contributing
@@ -48,4 +50,4 @@ Issues and pull requests are welcome.
 
 ## License
 
-[MIT](https://github.com/rfoell/styled-content-loader/blob/master/LICENSE)
+[MIT](https://github.com/rfoell/styled-content-loader/blob/main/LICENSE)
