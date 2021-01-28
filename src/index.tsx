@@ -13,12 +13,6 @@ type StyledContentLoaderProps = {
   backgroundColor?: string
   foregroundColor?: string
   isLoading?: boolean
-} & typeof defaultProps
-
-const defaultProps = {
-  backgroundColor: '#e6e6e6',
-  foregroundColor: '#f0f0f0',
-  isLoading: true,
 }
 
 const StyledContentLoader = styled.span<StyledContentLoaderProps>(
@@ -53,6 +47,10 @@ const StyledContentLoader = styled.span<StyledContentLoaderProps>(
   `,
 )
 
-StyledContentLoader.defaultProps = defaultProps
+StyledContentLoader.defaultProps = {
+  backgroundColor: '#e6e6e6',
+  foregroundColor: '#f0f0f0',
+  isLoading: true,
+}
 
 export default StyledContentLoader
