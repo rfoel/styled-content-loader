@@ -1,4 +1,3 @@
-import { bool, string } from 'prop-types'
 import styled, { css, keyframes } from 'styled-components'
 
 const animation = keyframes`
@@ -10,7 +9,19 @@ const animation = keyframes`
   }
 `
 
-const StyledContentLoader = styled.span(
+type StyledContentLoaderProps = {
+  backgroundColor: string
+  foregroundColor: string
+  isLoading: boolean
+} & typeof defaultProps
+
+const defaultProps = {
+  backgroundColor: '#e6e6e6',
+  foregroundColor: '#f0f0f0',
+  isLoading: true,
+}
+
+const StyledContentLoader = styled.span<StyledContentLoaderProps>(
   ({ backgroundColor, foregroundColor, isLoading }) => css`
     ${isLoading &&
     css`
@@ -42,16 +53,6 @@ const StyledContentLoader = styled.span(
   `,
 )
 
-StyledContentLoader.propTypes = {
-  backgroundColor: string,
-  foregroundColor: string,
-  isLoading: bool,
-}
-
-StyledContentLoader.defaultProps = {
-  backgroundColor: '#e6e6e6',
-  foregroundColor: '#f0f0f0',
-  isLoading: true,
-}
+StyledContentLoader.defaultProps = defaultProps
 
 export default StyledContentLoader
