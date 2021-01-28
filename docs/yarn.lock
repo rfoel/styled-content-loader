@@ -10458,10 +10458,10 @@ styled-components@^5.2.1:
     shallowequal "^1.1.0"
     supports-color "^5.5.0"
 
-styled-content-loader@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/styled-content-loader/-/styled-content-loader-1.1.2.tgz#5062ab29c5c2cd3adc5094d980545b59a11bde01"
-  integrity sha512-ugdbN4aV1ahOeB4rYPQFomBHU/SdzgbWUW0VpJAGfTyocd8EQO1x6ZtlFX8n5citzoI0/ty+p84eyt3k/CmdDA==
+styled-content-loader@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/styled-content-loader/-/styled-content-loader-1.2.0.tgz#2338db04146b4bfba43cf19aa61357b6f935c02b"
+  integrity sha512-6aPbyskiDtF5T9hnWimljB/xY2nrQZJYTjEShdzvgXRApujgK4Qy18kUFCJ9xjItxlZns2Hwzywmj5JS9AgRLQ==
   dependencies:
     prop-types "^15.7.2"
 
