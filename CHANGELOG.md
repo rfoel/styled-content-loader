@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/rfoel/styled-content-loader/compare/v1.2.0...v1.2.1) (2021-01-28)
+
+
+### Bug Fixes
+
+* props are not required ([52bc919](https://github.com/rfoel/styled-content-loader/commit/52bc919c6abef2a4ae5d1594a16b325e1348c195))
+
 # [1.2.0](https://github.com/rfoel/styled-content-loader/compare/v1.1.3...v1.2.0) (2021-01-28)
 
 
