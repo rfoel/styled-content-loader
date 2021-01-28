@@ -10,15 +10,15 @@
     "deploy": "node scripts/deploy"
   },
   "dependencies": {
-    "polished": "^4.0.3",
+    "polished": "^4.1.0",
     "prism-react-renderer": "^1.1.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-hook-form": "^6.10.1",
-    "react-live": "^2.2.2",
-    "react-scripts": "^4.0.0",
+    "react-hook-form": "^6.14.2",
+    "react-live": "^2.2.3",
+    "react-scripts": "^4.0.1",
     "styled-components": "^5.2.1",
-    "styled-content-loader": "file:.."
+    "styled-content-loader": "^1.2.0"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,6 +36,6 @@
     ]
   },
   "devDependencies": {
-    "execa": "^4.1.0"
+    "execa": "^5.0.0"
   }
 }
