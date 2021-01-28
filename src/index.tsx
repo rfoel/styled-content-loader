@@ -10,9 +10,9 @@ const animation = keyframes`
 `
 
 type StyledContentLoaderProps = {
-  backgroundColor: string
-  foregroundColor: string
-  isLoading: boolean
+  backgroundColor?: string
+  foregroundColor?: string
+  isLoading?: boolean
 } & typeof defaultProps
 
 const defaultProps = {
