@@ -17,7 +17,7 @@
     "react-hook-form": "^6.14.2",
     "react-live": "^2.2.3",
     "react-scripts": "^4.0.1",
-    "styled-components": "^5.2.1",
+    "styled-components": "^5.2.2",
     "styled-content-loader": "^1.2.2"
   },
   "eslintConfig": {
