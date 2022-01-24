@@ -10,7 +10,7 @@
     "deploy": "node scripts/deploy"
   },
   "dependencies": {
-    "polished": "^4.1.0",
+    "polished": "^4.1.4",
     "prism-react-renderer": "^1.1.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
