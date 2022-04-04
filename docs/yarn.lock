@@ -991,10 +991,10 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
-  version "7.12.5"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
-  integrity sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.17.8", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
+  version "7.17.8"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.17.8.tgz#3e56e4aff81befa55ac3ac6a0967349fd1c5bca2"
+  integrity sha512-dQpEpK0O9o6lj6oPu0gRDbbnk+4LeHlNcBpspf6Olzt3GIX4P1lWF1gS+pHLDFlaJvbR6q7jCfQ08zA4QJBnmA==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -1378,11 +1378,6 @@
     "@types/estree" "0.0.39"
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
-
-"@scarf/scarf@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@scarf/scarf/-/scarf-1.1.0.tgz#b84b4a91cd938a688d36245b7a7db6fbc476a499"
-  integrity sha512-b2iE8kjjzzUo2WZ0xuE2N77kfnTds7ClrDxcz3Atz7h2XrNVoAPUoT75i7CY0st5x++70V91Y+c6RpBX9MX7Jg==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.1"
@@ -7947,13 +7942,12 @@ pnp-webpack-plugin@1.6.4:
   dependencies:
     ts-pnp "^1.1.6"
 
-polished@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/polished/-/polished-4.1.0.tgz#ab80c10e04fdf8795faee723b59577de18d2936b"
-  integrity sha512-y8IInTGHuwku7+O+wsJ7OOvNpJF7EPP/IDzF1uj9UJfEEKpMAfeq5gZ5UrtOksM7Jk4+hBAk6Ce8rFOOF4msZg==
+polished@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/polished/-/polished-4.2.1.tgz#e38cdf4244b3bea63f77b0f8ab2335e22a66bd08"
+  integrity sha512-vRkUnHBwVX7kIeCzCghcLCWoDenV+sV7lkItnmTc7bb6Uzbe8ogU1FxqEW8+dXCxUX8YW8vusQ0HTk2yES7bfQ==
   dependencies:
-    "@babel/runtime" "^7.12.5"
-    "@scarf/scarf" "^1.1.0"
+    "@babel/runtime" "^7.17.8"
 
 portfinder@^1.0.26:
   version "1.0.28"
